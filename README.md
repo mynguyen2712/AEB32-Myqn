@@ -82,7 +82,8 @@ MAC:
 + Add toàn bộ file change: git add .
 + Tạo commit mô tả: git commit -m 'git init'
 + Push code: git push
-- Những lần sau:
+
+- Những lần sau: chi? can` 3 step nay`:
 + Add toàn bộ file change: git add .
 + Tạo commit mô tả: git commit -m 'homework1'
 + git push
