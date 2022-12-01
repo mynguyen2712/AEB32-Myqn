@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HYPERLINK WITH TARGET</title>
+</head>
+
+<body>
+    <a target="_blank" href="http://www.aptech-worldwide.com">
+        Click to view the Aptech Web site (_blank)
+    </a>
+    <hr />
+    <!-- FRAME -->
+
+    <!-- Đối với target=”_self” nó cũng tương tự với target=”_blank”
+        nhưng nó sẽ chuyển liên kết ngay trại trang bạn đang sử dụng
+        mà không mở sang tab mới trên trình duyệt. -->
+    <a target="_self" href="http://www.aptech-worldwide.com">
+        Click to view the Aptech Web site (_self)
+    </a>
+    <hr />
+
+    <!-- Thẻ target=”_top” thì nó sẽ nhảy tới tab hiện tại
+    -> thường dùng trong iframe khi muốn thoát khỏi iframe
+    và chạy tới trang gốc luôn. -->
+    <a target="_top" href="http://www.aptech-worldwide.com">
+        Click to view the Aptech Web site (_top)
+    </a>
+    <hr />
+    <!-- Với thẻ target=”_parent” thì nó sẽ chuyển link tới
+        tab mở tab hiện tại.
+        Ta còn hay gọi là tab cha của tab hiện tại -->
+
+    <a target="_parent" href="http://www.aptech-worldwide.com">
+        Click to view the Aptech Web site (_parent)
+    </a>
+    <hr />
+    <!-- Với thẻ target=”framename” thì nó sẽ chuyển link tới
+        frame cùng tên -->
+    <a target="name2" href="http://www.aptech-worldwide.com">
+        Click to view the Aptech Web site (framename)
+    </a>
+    <hr />
+</body>
+
+</html>
