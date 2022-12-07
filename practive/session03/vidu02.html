@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B4-layout 2</title>
+    <style>
+        html body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            border: 2px solid;
+            background-color: green;
+            
+            /* height: 20%; */
+        }
+        .header1{
+            text-align: center;
+            font-size: xx-large;
+        }
+        .div_tong{
+            background-color: white;
+            display: flex;
+            /* border: 2px solid; color: black; */
+            height: 880px;
+            justify-content: center;
+
+        }
+        .sidebar{
+            flex: 0.3;
+            text-align: center;
+            margin: 10px;
+            /* margin-left: 2px; */
+            border-radius: 20px;
+            font-size: 50px;
+            /* margin: 10px; */
+            top: 0px;
+            padding-top: 310px;
+            background-color: green;
+        }
+        .content{
+            flex: 0.7;
+            text-align: center;
+            margin: 10px;
+            border-radius: 20px;
+            font-size: 50px;
+            margin-left: 2px;
+            /* margin: 10px; */
+            top: 0px;
+            padding-top: 310px;
+            background-color: green;
+        }
+        /* .div_phu{
+            border: 2px solid; color: black;
+            display: flex; */
+        /* } */
+        .foot1{
+            background-color:green;
+            border: 2px solid; color: black;
+            height: 100px;
+        }
+        .foot_phu{
+            text-align: center;
+            font-size: xx-large;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <p class="header1">header</p>
+        </div>
+    </header>
+    <div class="div_tong">
+            <span class="sidebar">sidebar</span>
+            <span class="content">content</span>
+    </div>
+    <footer>
+        <div class="foot1">
+            <p class="foot_phu">footer</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

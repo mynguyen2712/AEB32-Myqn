@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            /* border: 2px solid; */
+            padding-left: 5px;
+            background-color: rgb(234, 216, 216);
+        }
+
+        .row {
+            height: 500px;
+            /* border: 2px solid; */
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .col {
+            /* border: 2px solid; */
+        }
+
+        .boder__bottom {
+            border-bottom: 2px solid;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        img {
+            height: 300px;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .col__1 {
+            margin-top: 10px;
+
+        }
+
+        .col__2 {
+            margin-top: 20px;
+        }
+
+        .col__3 {
+            /* display: flex; */
+            /* align-items: center; */
+            /* align-content: center; */
+            flex-direction: column;
+            background-color: rgb(131, 131, 233);
+            height: 360px;
+            padding-top: 20px;
+            margin-top: px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>The Pulpit Rock</h1>
+    </header>
+    <div>
+        <div class="row">
+            <div class="col-12 col-sm-3 col__1">
+                <p class="boder__bottom">The Dive</p>
+                <p class="boder__bottom">The Walk</p>
+                <p class="boder__bottom">The Return</p>
+                <p class="boder__bottom"> The End</p>
+            </div>
+            <div class="col-12 col-sm col__2">
+                <h2>The Walk</h2>
+                <p>The Walk to the The Pulpit Rock will take you approxinately two hours, give or take an hour depending
+                    on the weather
+                    conditions and your physical shape.</p>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm3bHMsVuwuSncqAzsJz0AVwFe9YujVsI8gw&usqp=CAU" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/f2/84/26.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWwj_KIliQP8OKh4YAeXcrg_gWMRQXdLohww&usqp=CAU" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col__3">
+                <div>
+                    <h2>What?</h2>
+                    <p>The Pulpit Rock is a part of a mountain that looks like a Pulpit</p>
+
+                </div>
+                <div>
+                    <h2>Where?</h2>
+                    <p>The Pulpit Rock is Norway</p>
+
+                </div>
+                <div>
+                    <h2>Price?</h2>
+                    <p>The walk is free!</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="bg-info p-3 text-center">The Pulpit Rock is a part of a mountain that looks like a Pulpit</footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./umd/popper.min.js"></script>
+</body>
+
+</html>
