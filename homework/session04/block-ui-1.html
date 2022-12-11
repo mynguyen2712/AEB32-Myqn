@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        .body__chinh{
+            /* border: 2px solid; */
+            height: 500px;
+            width: 500px;
+            padding: 25px;
+        }
+        .div___parent{
+            /* border: 2px solid; */
+            height: 99%;
+            /* color: white; */
+        }
+        .div__container{
+            /* border: 2px solid; */
+            display: flex;
+            height: 10%;
+            margin-bottom: 25px;
+        }
+        .div__left{
+            flex: 0.3;
+            /* border: 2px solid; */
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding-right: 20px;
+        }
+        .div__right{
+            flex: 0.7;
+            /* border: 2px solid; */
+            display: flex;
+
+        }
+        .color_redshine{
+            background-color: rgb(230, 45, 45);
+        }
+        .color_red{
+            background-color: rgb(222, 101, 101);
+            flex: 0.2;
+        }
+        .color_grey1{
+            flex: 0.8;
+            background-color: rgb(223, 205, 205);
+        }
+        .padding__left-20px{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="body__chinh">
+        <div class="div___parent">
+            <div class="div__container">
+                <div class="div__left color_redshine">BANDWIDTH</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px" style="flex: 0.2;">20%</div>
+                    <div class="color_grey1 " style="flex: 0.8;"></div>
+                </div>
+            </div>
+            <div class="div__container">
+                <div class="div__left color_redshine" style="background-color: rgb(93, 152, 166);">STORAGE</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px " style="flex: 0.5; background-color: rgb(67, 202, 232);">50%</div>
+                    <div class="color_grey1" style="flex: 0.5;"></div>
+                </div>
+            </div>
+            <div class="div__container">
+                <div class="div__left color_redshine" style="background-color: rgb(71, 134, 71);">USER</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px" style="flex: 0.7;background-color: rgb(58, 203, 58);">70%</div>
+                    <div class="color_grey1" style="flex: 0.3;"></div>
+                </div>
+            </div>
+            <div class="div__container">
+                <div class="div__left color_redshine" style="background-color: rgb(212, 212, 85);">VISITORS</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px" style="background-color: yellow;flex:0.35">30%</div>
+                    <div class="color_grey1" style="flex: 0.65;"></div>
+                </div>
+            </div>
+            <div class="div__container">
+                <div class="div__left color_redshine" style="background-color: rgb(153, 89, 213);">EMAILS</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px" style="background-color: rgb(186, 112, 235);flex:0.45">45%</div>
+                    <div class="color_grey1" style="flex: 0.55;"></div>
+                </div>
+            </div>
+            <div class="div__container">
+                <div class="div__left color_redshine" style="background-color: rgb(228, 75, 172);">BASIC</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px" style="background-color: rgb(241, 113, 194); flex: 0.8;">80%</div>
+                    <div class="color_grey1" style="flex: 0.2;"></div>
+                </div>
+            </div>
+            <div class="div__container">
+                <div class="div__left color_redshine" style="background-color: rgb(62, 62, 206);">OTHERS</div>
+                <div class="div__right">
+                    <div class="color_red padding__left-20px " style="background-color: rgb(81, 138, 250);flex: 0.42;">37%</div>
+                    <div class="color_grey1" style="flex: 0.58;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
