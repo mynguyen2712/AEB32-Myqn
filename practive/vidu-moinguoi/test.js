@@ -164,7 +164,7 @@ function b8(){
 
 
 
-//------------------bai tap 8------------------
+//------------------bai tap 9------------------
 
 function b9(){
     const prompt = require('prompt-sync')();
@@ -208,4 +208,22 @@ function b9(){
 
     
 }
-b9()
+
+//------------------bai tap 10------------------
+
+function b10(){
+    const prompt = require('prompt-sync')();
+    let n =  parseInt(prompt('Insert GAS You Want: '))
+    let tien_te =  (prompt('Insert Currency VND: '))
+    let a = parseInt(tien_te.split(' ')[0])
+    let b = parseInt(tien_te.split(' ')[1])
+    let ket_qua
+    if (n>=1) {  
+        if (a,b>=1) {
+            ket_qua = b*2 + a
+        }
+    }
+    print(ket_qua)
+    
+}
+// b10()
