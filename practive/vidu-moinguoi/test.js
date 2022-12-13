@@ -206,9 +206,6 @@ function b9(){
     // result_ of combine : 
     print(combine)
 
-
-    
-
     
 }
 b9()
